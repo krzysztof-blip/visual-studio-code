@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    background-color: lightcyan;
+}
+body {
+    font-family: "Lato", sans-serif;
+    color: #7BDE02;
+}
+h1 {
+    text-align: center;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+div#titleDetails {
+    margin-bottom: 2rem;
+}
+h2 {
+    text-align: center;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 2rem;
+
+}
+div#titleDetails{
+    text-align: center;
+    
+    font-size: larger;
+    font-weight: bold;
+}
+div.sectionContainer {
+    display: flex;
+}
+div.sectionImage {
+    flex: 1;
+
+}
+div.sectionContent {
+    flex: 1;
+    padding: 30px;
+}
+div.sectionContainer2 {
+    display: flex;
+}
+div.sectionImage2 {
+    flex: 2;
+}
+div.sectionContent2 {
+    flex:2;
+    padding:30px;
+    text-align: center;
+}
+div.telefon {
+    text-align: center;
+    padding: 30px;
+}
+div.godziny_otwarcia {
+    text-align: center;
+    padding: 20px;
+}
